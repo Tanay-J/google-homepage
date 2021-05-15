@@ -1,0 +1,29 @@
+
+
+#logo{
+    display: block;
+    margin: auto;
+}
+#search{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 20px auto;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+#btn1, #btn2{
+    border: none;
+    padding: 0.7rem 1.5rem;
+    background-color: #f8f9fa;
+    margin: 10px 10px;
+}
