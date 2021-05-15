@@ -1,5 +1,22 @@
 
-
+#nav{
+    text-align: right;
+}
+#nav-list{
+    list-style: none;
+}
+#nav-list li{
+    display: inline;
+    padding: 0.8rem;
+    font-size: small;
+}
+#nav-list button{
+    border: none;
+    padding: 0.7rem 1.6rem;
+    border-radius: 0.3rem;
+    background-color: #1a73e8;
+    color: white;
+}
 #logo{
     display: block;
     margin: auto;
