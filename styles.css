@@ -27,9 +27,9 @@ color: #70757a;
     display: block;
     margin: auto;
 }
-#search{
-    display: flex;
-    justify-content: space-between;
+
+#main-search{
+    display: block;
     padding-left: 7px;
     padding-right: 7px;
     margin: 20px auto;
@@ -39,9 +39,16 @@ color: #70757a;
     width: auto;
     max-width: 584px;
 }
-#search i{
-    display: grid;  
-    align-items: center;
+#search{
+width: 90%;
+max-width: 584px;
+height: 42px;
+margin: auto;
+border: none;
+}
+#main-search i{
+    vertical-align: middle;
+    position: absolute;
 }
 #buttons{
     display: flex;
@@ -52,6 +59,7 @@ color: #70757a;
     padding: 0.7rem 1.5rem;
     background-color: #f8f9fa;
     margin: 10px 10px;
+    color: #70757a;
 }
 
 footer{
