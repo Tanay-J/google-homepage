@@ -48,7 +48,6 @@ border: none;
 }
 #main-search i{
     vertical-align: middle;
-    position: absolute;
 }
 #buttons{
     display: flex;
