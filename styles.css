@@ -46,6 +46,9 @@ height: 42px;
 margin: auto;
 border: none;
 }
+#search:focus{
+    outline: none;
+}
 #main-search i{
     vertical-align: middle;
 }
